@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: FCDB00;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align{
+
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+    margin: 50px 0;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+    margin: 50px 0;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px;
+    margin: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #010101;
+}
+.left{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0px 50px 50px 0px;
+    box-sizing: border-box;
+}
+.left h1{
+    font-size: 30px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.left h3{
+    font-size: 23px;
+}
+.left p{}
+.left ul{
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    display: flex;
+}
+.left ul li{
+    list-style: none;
+    padding: 0px 30px 0 0px;
+}
+.left ul li i{
+    font-size: 50px;
+}
+.image{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0px 0 50px 120px;
+    box-sizing: border-box;
+}
+.bulet{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.bulet li{
+    list-style: none;
+    padding: 10px 3px 10px 3px;
+    margin-bottom: 50px;
+}
+.bulet li a{
+    background-color: #ffffffdb;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+}
+.bulet li a:hover{
+    background-color: #FFFFFF;
+}
+section{}
+.mid{
+    margin: 100px 0;
+}
+.head h1{
+    font-size: 30px;
+    text-align: center;
+}
+.head h3{
+    font-size: 23px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.col{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.f_icon{
+    flex-basis: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+}
+.f_icon i{
+    font-size: 40px;
+}
+.f_content{
+    flex-basis: 80%;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+.f_content h2{
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+}
+.f_content p{}
+.footer{
+    background-color: #010101;
+}
+.subscription{}
+.subscription h1{
+    color: #FCDB00;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    margin: 0;
+}
+.subscription p{
+    color: #ffffffc9;
+    text-align: center;
+    font-size: 23px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscription form{padding: 20px 60px;}
+.input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.input input{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.submit input{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background-color: #FCDB00;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.submit input:hover{
+    background: transparent;
+    border: 1px solid #FCDB00;
+    color: #FCDB00;
+}
+.s_icon{}
+.s_icon ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.s_icon ul li{
+    padding: 8px;
+    list-style: none;
+}
+.s_icon ul li a{padding: 1px;background-color: #FCDB00;font-size: 20px;border-radius: 3px;}
+.s_icon ul li a i{}
+.address{
+    flex-basis: 40%;
+    max-width: 40%;
+    box-sizing: border-box;
+    color: #ffffffc9;
+}
+.address address{}
+.f_col{
+    flex-basis: 15%;
+    max-width: 15%;
+}
+.f_col ul{
+    padding: 0;
+}
+.f_col ul li{
+    list-style: none;
+}
+.f_col ul li a{
+    text-decoration: none;
+    color: #ffffffc9;
+}
+.f_col ul li a:hover{
+    color: #FCDB00;
+}
